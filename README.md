@@ -38,18 +38,42 @@ Source-code (tokenized):
 private void recalculate column and row count column count 0 row count 0 for presented data data map data by id values change column and row count for data data
 ```
 
-8868643
-Prediction: <s> returns true if the given field is available </s>
-Reference:  
+#### Example 2: 8868643
+Prediction: `returns true if the given field is available`
 
-4512280
-Prediction: <s> checks if the current solution is a new solution </s>
-Reference:
+Reference: `checks if index is available`
 
-22622498
-Prediction: <s> sets the debug flag </s>
-Reference:
+Source-code (tokenized):
+```java
+public boolean index available class clazz string field name throws parse exception session session session factory open session full text session full text session search get full text session session org apache lucene query parser query parser parser new query parser field name full text session get search factory get analyzer clazz org apache lucene search query lucene query parser parse query query full text session create full text query lucene query clazz query set max results 1 list results query list boolean index available results size 0 full text session close return index available
+```
 
-18925380
-Prediction: <s> adds a new configuration to the file </s>
-Reference: 
+#### Example 3: 4512280
+Prediction: `invoked when a mouse has been clicked`
+
+Reference: `activate and notify the logic observer`
+
+Source-code (tokenized):
+```java
+public void mouse clicked mouse event e if this setable this notify observer e
+```
+
+#### Example 4: 22622498
+Prediction: `sets the debug flag`
+
+Reference: `sets the debug attribute of the record validation filter object`
+
+Source-code (tokenized):
+```java
+protected void set debug boolean db debug db
+```
+
+#### Example 5: 18925380
+Prediction: `adds a new configuration to the file`
+
+Reference: `adds a log4j configuration to the list of predefined configs`
+
+Source-code (tokenized):
+```java
+public void add config string resource name string label throws ioexception copy file if not already there string name resource name int pos name last index of if pos 0 name name substring pos 1 file file new file log dir name properties if file exists copy res resource name properties file add to config configs put name file labels put name label
+```
